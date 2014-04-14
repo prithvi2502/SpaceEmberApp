@@ -7,7 +7,7 @@
         android:id="@+id/readingAcce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Accelerometer Readings (eratic speed threshold set at 3000m/s): "
+        android:text="Accelerometer Readings (erratic speed threshold set at 3000m/s): "
 	 />
     <TextView
         android:id="@+id/textView2x"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="GyroScopic Readings (eratic speed threshold set at 2000m/s): " />
+        android:text="GyroScopic Readings (erratic speed threshold set at 2000m/s): " />
     <TextView
         android:id="@+id/textview3x"
         android:layout_width="wrap_content"
