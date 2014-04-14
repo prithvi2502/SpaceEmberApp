@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TextView
+        android:id="@+id/readingAcce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Readings (eratic speed threshold set at 3000m/s): "
+	 />
+    <TextView
+        android:id="@+id/textView2x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+	 />
+    <TextView
+        android:id="@+id/textView2y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+	 />
+    <TextView
+        android:id="@+id/textView2z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+	/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Your Movement is ok now" />
+    
+    <TextView
+        android:id="@+id/readingsgyro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GyroScopic Readings (eratic speed threshold set at 2000m/s): " />
+    <TextView
+        android:id="@+id/textview3x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textview3y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textview3z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Your rotational movement is ok now" />
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            
+            >
+
+            <TextView
+                android:id="@+id/statusView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textColorLink="#4169e1"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            
+
+            <TextView
+                android:id="@+id/pressureView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not hava a Barometer" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+           
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Thermometer" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Light Sensor" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Humidity Sensor" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView9dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAGNETIC FIELD STRENGTH" />
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView9x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Magnetic Sensor" />
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView9y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Magnetic Sensor" />
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6Z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView9z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your phone does not have a Magnetic Sensor" />
+            
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oxygen Levels: 90%" />
+
+        </TableRow>
+       
+        
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+          
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water Levels: 70%" />
+
+        </TableRow>
+    </TableLayout>
+
+    
+
+</LinearLayout>
